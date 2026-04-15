@@ -4,16 +4,18 @@
 1. Gambarkan rangkaian schemaatic yang digunakan pada percobaan !
 
    Jawab:
+    <img width="626" height="486" alt="Screenshot 2026-04-15 071423" src="https://github.com/user-attachments/assets/e14a0daa-7272-4aac-81f2-72ec8b06cdde" />
 
-2. Apa yang terjadi jika nilai num lebih dari 15?
+
+3. Apa yang terjadi jika nilai num lebih dari 15?
 
    Jawab: Akan terjadi error tampilan karena array `digitalPatern` hanya memiliki indeks dari 0-15. Jika lebih dari 15, maka program mengakses data di luar array.
 
-3. Apakah program ini menggunakan common cathode atau common anode? Jelaskan alasannya!
+4. Apakah program ini menggunakan common cathode atau common anode? Jelaskan alasannya!
 
    Jawab: Praogram menggunakan Common Anode, alasannya logika output dibalilk menggunakan `!digitalPattern[num][i]` karena Common Anode membaca logika 0 sebagai menyala dan logika 1 sebagai mati
 
-4. Modifikasi program agar tampilan berjalan dari F ke 0 dan berikan penjelasan disetiap baris kodenya dalam bentuk README.md
+5. Modifikasi program agar tampilan berjalan dari F ke 0 dan berikan penjelasan disetiap baris kodenya dalam bentuk README.md
 
     Jawab: 
     ```cpp
@@ -78,7 +80,8 @@
 ## 2.6.4 Pertanyaan Praktikum
 1. Gambarkan rangkaian  schematic yang digunakan pada percobaan!
     
-    Jawab: 
+    Jawab: <img width="677" height="526" alt="Screenshot 2026-04-15 075542" src="https://github.com/user-attachments/assets/c56a1281-325b-4331-b8e3-057feb997999" />
+
 
 2. Mengapa pada push button digunakan mode INPUT_PULLUP pada Arduino Uno?
 Apa keuntungannya dibandingkan rangkaian biasa?
